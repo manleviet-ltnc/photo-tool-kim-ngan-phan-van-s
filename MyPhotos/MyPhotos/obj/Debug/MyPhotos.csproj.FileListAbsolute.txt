@@ -1,0 +1,10 @@
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
