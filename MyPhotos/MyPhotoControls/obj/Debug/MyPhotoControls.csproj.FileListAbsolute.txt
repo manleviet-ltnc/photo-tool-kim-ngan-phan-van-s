@@ -1,0 +1,12 @@
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseExitDialog.resources
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
