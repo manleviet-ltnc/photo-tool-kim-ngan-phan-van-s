@@ -206,7 +206,7 @@ namespace MyPhotos
         private void SaveAlbum()
         {
             if (String.IsNullOrEmpty(Manager.FullName))
-                SaveAlbum();
+                SaveAsAlbum();
             else
             {
                 // Save the album under the existing name
