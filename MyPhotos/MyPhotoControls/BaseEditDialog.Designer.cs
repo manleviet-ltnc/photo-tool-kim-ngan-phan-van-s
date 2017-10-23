@@ -1,6 +1,6 @@
 ﻿namespace Manning.MyPhotoControls
 {
-    partial class BaseExitDialog
+    partial class BaseEditDialog
     {
         /// <summary>
         /// Required designer variable.

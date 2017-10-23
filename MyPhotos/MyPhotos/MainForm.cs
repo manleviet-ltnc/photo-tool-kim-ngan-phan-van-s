@@ -137,7 +137,9 @@ namespace MyPhotos
                 sttImageSize.Text = string.Format("{0:#}x{1:#}",
                                                   pbxPhoto.Image.Width,
                                                   pbxPhoto.Image.Height);
-                // sttAlbumPos is set in ch. 6
+                sttAlbumPos.Text = String.Format(" {0:0}/{1:0} ",
+                                                 Manager.Index + 1,
+                                                 Manager.Album.Count);
             }
             else
             {
@@ -337,6 +339,7 @@ namespace MyPhotos
             mnuNext.Enabled = (Manager.Index < Manager.Album.Count - 1);
             mnuPrevious.Enabled = (Manager.Index > 0);
             mnuPhotoProps.Enabled = (Manager.Current != null);
+            mnuAlbumProps.Enabled = (Manager.Album != null);
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)

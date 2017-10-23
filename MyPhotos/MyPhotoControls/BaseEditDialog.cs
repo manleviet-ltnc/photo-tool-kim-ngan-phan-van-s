@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace Manning.MyPhotoControls
 {
-    public partial class BaseExitDialog : Form
+    public partial class BaseEditDialog : Form
     {
-        public BaseExitDialog()
+        public BaseEditDialog()
         {
             InitializeComponent();
         }
 
-        protected virtual void ReselDialog()
+        protected virtual void ResetDialog()
         {
-            // Dose nothing in base class
+            // Does nothing in base class
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            ReselDialog();
+            ResetDialog();
         }
     }
 }

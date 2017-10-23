@@ -22,3 +22,9 @@ C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPho
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb

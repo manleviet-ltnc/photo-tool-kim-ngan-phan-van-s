@@ -22,3 +22,16 @@ C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPho
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb

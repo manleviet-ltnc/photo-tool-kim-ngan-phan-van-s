@@ -9,7 +9,7 @@ using Mainning.MyPhotoAlbum;
 
 namespace Manning.MyPhotoControls
 {
-    public partial class PhotoEditDialog : Manning.MyPhotoControls.BaseExitDialog
+    public partial class PhotoEditDialog : Manning.MyPhotoControls.BaseEditDialog
     {
         private Photograph _photo;
         private Photograph Photo
@@ -48,11 +48,11 @@ namespace Manning.MyPhotoControls
         private void InitializeDialog(Photograph photo)
         {
             _photo = photo;
-            ReselDialog();
+            ResetDialog();
             mskDateTaken.ValidatingType = typeof(CurrentDate);
         }
 
-        protected override void ReselDialog()
+        protected override void ResetDialog()
         {
             Photograph photo = Photo;
             if (photo != null)

@@ -60,3 +60,17 @@ C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPho
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
 C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
