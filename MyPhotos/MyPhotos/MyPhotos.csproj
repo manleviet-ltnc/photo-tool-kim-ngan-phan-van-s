@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC43BD16-6CEF-49F6-83EF-291D7C608DBD}</ProjectGuid>
+    <ProjectGuid>{E9373780-A424-402E-85B3-FC48FFA8F414}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MyPhotos</RootNamespace>
     <AssemblyName>MyPhotos</AssemblyName>
@@ -80,11 +80,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyPhotoAlbum\MyPhotoAlbum.csproj">
-      <Project>{b10f7cba-5731-4917-b852-044ee7694396}</Project>
+      <Project>{ba28f54e-5817-4900-a0d6-621702d8e6c9}</Project>
       <Name>MyPhotoAlbum</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyPhotoControls\MyPhotoControls.csproj">
-      <Project>{621f71b1-1d59-48bf-a4da-2efeeaca298a}</Project>
+      <Project>{abe505ef-7036-49d3-ad12-f0c44552ffd5}</Project>
       <Name>MyPhotoControls</Name>
     </ProjectReference>
   </ItemGroup>

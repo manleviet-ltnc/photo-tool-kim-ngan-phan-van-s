@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 
-namespace Mainning.MyPhotoAlbum
+namespace Manning.MyPhotoAlbum
 {
     /// <summary>
     /// The photograph class represents a photographic
     /// image stored in the file system
     /// </summary>
-    public class Photograph : IDisposable
+    public class Photograph : IDisposable, IFormattable
     {
         private string _fileName;
         public string FileName
@@ -39,13 +39,13 @@ namespace Mainning.MyPhotoAlbum
                 if (_caption != value)
                 {
                     _caption = value;
-                    _hasChangeed = true;
+                    HasChanged = true;
                 }
             }
         }
 
         private string _photographer = "";
-        public string Phôtgrapher
+        public string Photographer
         {
             get { return _photographer; }
             set
@@ -58,15 +58,15 @@ namespace Mainning.MyPhotoAlbum
             }
         }
 
-        private DateTime _dataTaken = DateTime.Now;
+        private DateTime _dateTaken = DateTime.Now;
         public DateTime DateTaken
         {
-            get { return _dataTaken; }
+            get { return _dateTaken; }
             set
             {
-                if (_dataTaken != value)
+                if (_dateTaken != value)
                 {
-                    _dataTaken = value;
+                    _dateTaken = value;
                     HasChanged = true;
                 }
             }
@@ -86,11 +86,11 @@ namespace Mainning.MyPhotoAlbum
             }
         }
 
-        private bool _hasChangeed = true;
+        private bool _hasChanged = true;
         public bool HasChanged
         {
-            get { return _hasChangeed; }
-            set { _hasChangeed = value; }
+            get { return _hasChanged; }
+            set { _hasChanged = value; }
         }
 
         public Photograph(string fileName)
@@ -120,6 +120,37 @@ namespace Mainning.MyPhotoAlbum
             return FileName;
         }
 
+        public string ToString(string format, IFormatProvider formatProvider)
+        {
+            if (string.IsNullOrEmpty(format))
+                format = "f";
+
+            char first = format.ToLower()[0];
+            if (format.Length == 1)
+            {
+                switch (first)
+                {
+                    case 'c': return Caption;
+                    case 'd': return DateTaken.ToLongDateString();
+                    case 'f': return FileName;
+                }
+            }
+            else if (first == 'd')
+                return DateTaken.ToString(format.Substring(1), formatProvider);
+
+            throw new NotImplementedException();
+        }
+
+        public string ToString(string format)
+        {
+            return ToString(format, null);
+        }
+
+        public string ToString(IFormatProvider fp)
+        {
+            return ToString(null, fp);
+        }
+   
         public void ReleaseImage()
         {
             if (_bitmap != null)

@@ -1,37 +1,28 @@
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
 H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseExitDialog.resources
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseExitDialog.resources
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb

@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mainning.MyPhotoAlbum
+namespace Manning.MyPhotoAlbum
 {
     public class PhotoAlbum : Collection<Photograph>, IDisposable
     {
-        public enum DescriptorOption { Filename, Caption, DateTaken }
+        public enum DescriptorOption { FileName, Caption, DateTaken }
 
         private string _title;
         public string Title
@@ -33,7 +33,17 @@ namespace Mainning.MyPhotoAlbum
             }
         }
 
-        
+        public string GetDescriptorFormat()
+        {
+            switch (PhotoDescriptor)
+            {
+                case DescriptorOption.Caption: return "c";
+                case DescriptorOption.DateTaken: return "d";
+                case DescriptorOption.FileName:
+                default:
+                    return "f";
+            }
+        }
 
         private bool _hasChanged = false;
         public bool HasChanged
@@ -71,7 +81,7 @@ namespace Mainning.MyPhotoAlbum
         private void ClearSettings()
         {
             _title = null;
-            _descriptor = DescriptorOption.Caption; 
+            _descriptor = DescriptorOption.Caption;
         }
 
         protected override void ClearItems()
@@ -118,7 +128,7 @@ namespace Mainning.MyPhotoAlbum
                     return photo.Caption;
                 case DescriptorOption.DateTaken:
                     return photo.DateTaken.ToShortDateString();
-                case DescriptorOption.Filename:
+                case DescriptorOption.FileName:
                     return photo.FileName;
             }
 

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B10F7CBA-5731-4917-B852-044EE7694396}</ProjectGuid>
+    <ProjectGuid>{BA28F54E-5817-4900-A0D6-621702D8E6C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mainning.MyPhotoAlbum</RootNamespace>
+    <RootNamespace>Manning.MyPhotoAlbum</RootNamespace>
     <AssemblyName>MyPhotoAlbum</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="AlbumManager.cs" />
     <Compile Include="AlbumStorage.cs" />
+    <Compile Include="CryptoReader.cs" />
+    <Compile Include="CryptoTextBase.cs" />
+    <Compile Include="CryptoWriter.cs" />
     <Compile Include="ImageUtility.cs" />
     <Compile Include="PhotoAlbum.cs" />
     <Compile Include="Photograph.cs" />

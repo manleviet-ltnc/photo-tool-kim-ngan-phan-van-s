@@ -5,7 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using Mainning.MyPhotoAlbum;
+using Manning.MyPhotoAlbum;
 
 namespace Manning.MyPhotoControls
 {
@@ -20,7 +20,7 @@ namespace Manning.MyPhotoControls
         public AlbumEditDialog(AlbumManager mgr)
         {
             if (mgr == null)
-                throw new ArgumentException("AlbumManager Cannot Be Null");
+                throw new ArgumentException("AlbumManager cannot be null");
 
             InitializeComponent();
 
@@ -28,17 +28,17 @@ namespace Manning.MyPhotoControls
             ResetDialog();
         }
 
-        private void cbxPassWord_CheckedChanged(object sender, EventArgs e)
+        private void cbxPassword_CheckedChanged(object sender, EventArgs e)
         {
-            bool enabled = cbxPassWord.Checked;
+            bool enabled = cbxPassword.Checked;
             txtPassword.Enabled = enabled;
             lblConfirm.Enabled = enabled;
             txtConfirm.Enabled = enabled;
 
-            // if enable, assign focus
+            // if enabled, assign focus
             if (enabled)
                 txtPassword.Focus();
-        }       
+        }
 
         protected override void ResetDialog()
         {
@@ -48,7 +48,7 @@ namespace Manning.MyPhotoControls
             txtAlbumFile.Text = Manager.FullName;
             txtTitle.Text = album.Title;
 
-            //Assign radio button
+            // Assign radio button
             switch (album.PhotoDescriptor)
             {
                 case PhotoAlbum.DescriptorOption.Caption:
@@ -57,21 +57,21 @@ namespace Manning.MyPhotoControls
                 case PhotoAlbum.DescriptorOption.DateTaken:
                     rbtnDateTaken.Checked = true;
                     break;
-                case PhotoAlbum.DescriptorOption.Filename:
+                case PhotoAlbum.DescriptorOption.FileName:
                     rbtnFileName.Checked = true;
                     break;
             }
 
             // Assign check box
             string pwd = Manager.Password;
-            cbxPassWord.Checked = (pwd != null && pwd.Length > 0);
+            cbxPassword.Checked = (pwd != null && pwd.Length > 0);
             txtPassword.Text = pwd;
             txtConfirm.Text = pwd;
         }
 
         private bool ValidPassword()
         {
-            if (cbxPassWord.Checked)
+            if (cbxPassword.Checked)
                 return (txtPassword.TextLength > 0 &&
                         txtConfirm.Text == txtPassword.Text);
             else
@@ -82,10 +82,10 @@ namespace Manning.MyPhotoControls
         {
             if (DialogResult == DialogResult.OK)
             {
-                if(!ValidPassword())
+                if (!ValidPassword())
                 {
-                    DialogResult result = MessageBox.Show("The current password is blank"
-                                                          + "or the two password entries"
+                    DialogResult result = MessageBox.Show("The current password is blank "
+                                                          + "or the two password entries "
                                                           + "do not match.",
                                                           "Invalid Password",
                                                           MessageBoxButtons.OK,
@@ -111,9 +111,9 @@ namespace Manning.MyPhotoControls
                 else if (rbtnDateTaken.Checked)
                     album.PhotoDescriptor = PhotoAlbum.DescriptorOption.DateTaken;
                 else if (rbtnFileName.Checked)
-                    album.PhotoDescriptor = PhotoAlbum.DescriptorOption.Filename;
+                    album.PhotoDescriptor = PhotoAlbum.DescriptorOption.FileName;
 
-                if (cbxPassWord.Checked && ValidPassword())
+                if (cbxPassword.Checked && ValidPassword())
                     Manager.Password = txtPassword.Text;
                 else
                     Manager.Password = null;
@@ -122,7 +122,23 @@ namespace Manning.MyPhotoControls
 
         private void txtTitle_TextChanged(object sender, EventArgs e)
         {
-            Text = txtTitle.Text + " -Album Properties";
+            Text = txtTitle.Text + " - Album Properties";
+        }
+
+        private void txtPassword_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtPassword.TextLength > 0)
+                errorProvider1.SetError(txtPassword, "");
+            else
+                errorProvider1.SetError(txtPassword, "The assigned password cannot be blank");
+        }
+
+        private void txtConfirm_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtConfirm.Text == txtPassword.Text)
+                errorProvider1.SetError(txtConfirm, "");
+            else
+                errorProvider1.SetError(txtConfirm, "The password and confirmation entries do not match");
         }
     }
 }

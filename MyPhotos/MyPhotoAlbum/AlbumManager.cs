@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.IO;
+using System.Collections.Specialized;
 
-namespace Mainning.MyPhotoAlbum
+namespace Manning.MyPhotoAlbum
 {
     public class AlbumManager
     {
@@ -27,9 +28,54 @@ namespace Mainning.MyPhotoAlbum
             }
         }
 
+        private StringCollection _photographers = null;
+        public StringCollection Photographers
+        {
+            get
+            {
+                if (Album.HasChanged || _photographers == null)
+                {
+                    _photographers = new StringCollection();
+                    foreach (Photograph p in Album)
+                    {
+                        // Make sure we add each person only once
+                        string person = p.Photographer;
+                        if (person != null && person.Length > 0
+                            && !_photographers.Contains(person))
+                        {
+                            _photographers.Add(person);
+                        }
+                    }
+                }
+                return _photographers;
+            }
+        }
+
         static AlbumManager()
         {
             _defaultPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal) + @"\Albums";
+        }
+
+        public AlbumManager()
+        {
+            _album = new PhotoAlbum();
+        }
+
+        public AlbumManager(string name) : this()
+        {
+            _name = name;
+            _album = AlbumStorage.ReadAlbum(name);
+            if (Album.Count > 0)
+                Index = 0;
+        }
+
+        public AlbumManager(string name, string pwd) : this()
+        {
+            _name = name;
+            _album = AlbumStorage.ReadAlbum(name, pwd);
+            Password = pwd;
+            if (Album.Count > 0)
+                Index = 0;
         }
 
         private int _pos = -1;
@@ -45,7 +91,7 @@ namespace Mainning.MyPhotoAlbum
             set
             {
                 if (value < 0 || value >= Album.Count)
-                    throw new InsufficientExecutionStackException("The given index is out of bounds");
+                    throw new IndexOutOfRangeException("The given index is out of bounds");
                 _pos = value;
             }
         }
@@ -57,7 +103,7 @@ namespace Mainning.MyPhotoAlbum
             private set { _name = value; }
         }
 
-        private string ShortName
+        public string ShortName
         {
             get
             {
@@ -74,18 +120,7 @@ namespace Mainning.MyPhotoAlbum
             get { return _album; }
         }
 
-        public AlbumManager()
-        {
-            _album = new PhotoAlbum();
-        }
 
-        public AlbumManager(String name) : this()
-        {
-            _name = name;
-            _album = AlbumStorage.ReadAlbum(name);
-            if (Album.Count > 0)
-                Index = 0;
-        }
 
         public Photograph Current
         {
@@ -116,7 +151,7 @@ namespace Mainning.MyPhotoAlbum
         {
             if (FullName == null)
                 throw new InvalidOperationException("Unable to save album with no name");
-            AlbumStorage.WriteAlbum(Album, FullName);
+            AlbumStorage.WriteAlbum(Album, FullName, Password);
         }
 
         public void Save(string name, bool overwrite)
@@ -124,9 +159,9 @@ namespace Mainning.MyPhotoAlbum
             if (name == null)
                 throw new ArgumentNullException("name");
             if (name != FullName && AlbumExits(name) && !overwrite)
-                throw new ArgumentNullException("An album with this name exists");
+                throw new ArgumentException("An album with this name exists");
 
-            AlbumStorage.WriteAlbum(Album, name);
+            AlbumStorage.WriteAlbum(Album, name, Password);
             FullName = name;
         }
 
@@ -139,13 +174,35 @@ namespace Mainning.MyPhotoAlbum
             return true;
         }
 
-        public bool MovePrew()
+        public bool MovePrev()
         {
             if (Index <= 0)
                 return false;
 
             Index--;
-            return true; 
+            return true;
+        }
+
+        public void MoveItemBackward(int index)
+        {
+            if (index <= 0 || index >= Album.Count)
+                throw new IndexOutOfRangeException();
+
+            // Remove photo and reinsert at prior position
+            Photograph photo = Album[index];
+            Album.RemoveAt(index);
+            Album.Insert(index - 1, photo);
+        }
+
+        public void MoveItemForward(int index)
+        {
+            if (index < 0 || index > Album.Count - 1)
+                throw new IndexOutOfRangeException();
+
+            // Remove photo and reinsert at subsequent position
+            Photograph photo = Album[index];
+            Album.RemoveAt(index);
+            Album.Insert(index + 1, photo);
         }
     }
 }

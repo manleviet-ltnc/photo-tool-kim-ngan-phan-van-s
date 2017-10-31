@@ -1,76 +1,14 @@
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
-C:\Users\User\Documents\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
-C:\Users\Administrator\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
-E:\github\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
-H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
-C:\Users\thuchanh\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
-C:\Users\Dell\Documents\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb

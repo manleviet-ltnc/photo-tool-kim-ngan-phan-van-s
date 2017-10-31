@@ -5,7 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using Mainning.MyPhotoAlbum;
+using Manning.MyPhotoAlbum;
+using System.Collections.Specialized;
 
 namespace Manning.MyPhotoControls
 {
@@ -54,13 +55,28 @@ namespace Manning.MyPhotoControls
 
         protected override void ResetDialog()
         {
+            // Fill combo box with photographer in album
+            cmbPhotographer.BeginUpdate();
+            cmbPhotographer.Items.Clear();
+
+            if (Manager != null)
+            {
+                StringCollection coll = Manager.Photographers;
+                foreach (string s in coll)
+                    cmbPhotographer.Items.Add(s);
+            }
+            else
+                cmbPhotographer.Items.Add(Photo.Photographer);
+
+            cmbPhotographer.EndUpdate();
+
             Photograph photo = Photo;
             if (photo != null)
             {
                 txtPhotoFile.Text = photo.FileName;
                 txtCaption.Text = photo.Caption;
                 mskDateTaken.Text = photo.DateTaken.ToString();
-                txtPhotographer.Text = photo.Phôtgrapher;
+                cmbPhotographer.Text = photo.Photographer;
                 txtNotes.Text = photo.Notes;
             }
         }
@@ -77,7 +93,7 @@ namespace Manning.MyPhotoControls
             if (photo != null)
             {
                 photo.Caption = txtCaption.Text;
-                photo.Phôtgrapher = txtPhotographer.Text;
+                photo.Photographer = cmbPhotographer.Text;
                 photo.Notes = txtNotes.Text;
                 try
                 {
@@ -98,7 +114,7 @@ namespace Manning.MyPhotoControls
             {
                 DateTime result = DateTime.Parse(input);
                 if (result > DateTime.Now)
-                    throw new FormatException("the given date is in the future.");
+                    throw new FormatException("The given date is in the future.");
 
                 return result;
             }
@@ -116,6 +132,13 @@ namespace Manning.MyPhotoControls
                                                       MessageBoxIcon.Question);
                 e.Cancel = (result == DialogResult.Yes);
             }
+        }
+
+        private void cmbPhotographer_Leave(object sender, EventArgs e)
+        {
+            string person = cmbPhotographer.Text;
+            if (!cmbPhotographer.Items.Contains(person))
+                cmbPhotographer.Items.Add(person);
         }
     }
 }

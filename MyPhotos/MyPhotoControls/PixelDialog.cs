@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Mainning.MyPhotoAlbum;
+using Manning.MyPhotoAlbum;
 
 namespace Manning.MyPhotoControls
 {
@@ -37,19 +37,16 @@ namespace Manning.MyPhotoControls
             SetPixelData(0, 0, 0, 0, 0);
         }
 
-        public void UpdatePixelData(int xPos, int yPos, Bitmap bmp,
-                                    Rectangle displayRect, Rectangle bmpRect,
-                                    PictureBoxSizeMode sizeMode)
+        public void UpdatePixelData(int xPos, int yPos, Bitmap bmp, Rectangle displayRect, Rectangle bmpRect, PictureBoxSizeMode sizeMode)
         {
-            // Detarmine (x, y) position within image
+            // Determine (x, y) position within image
             int x = 0, y = 0;
 
             switch (sizeMode)
             {
                 case PictureBoxSizeMode.AutoSize:
                 case PictureBoxSizeMode.CenterImage:
-                    throw new NotSupportedException("The AutoSize and CenterImage size modes"
-                                                    + "are not supported at this time.");
+                    throw new NotSupportedException("The AutoSize and CenterImage size modes are not supported at this time.");
                 case PictureBoxSizeMode.Normal:
                     // Rectangle coords are image coords
                     if (xPos >= bmp.Width || yPos >= bmp.Height)
@@ -75,7 +72,10 @@ namespace Manning.MyPhotoControls
                     break;
             }
 
+            // Extract color at calculated position
             Color c = bmp.GetPixel(x, y);
+
+            // Update dialog values
             SetPixelData(x, y, c.R, c.G, c.B);
         }
     }
