@@ -12,3 +12,17 @@ C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\
 C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
 C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
 C:\Users\User\Downloads\photo-tool-manleviet-master\photo-tool-manleviet-master\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+H:\GitHub\kim ngân\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
