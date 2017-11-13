@@ -80,21 +80,21 @@
             this.tsbCopy = new System.Windows.Forms.ToolStripButton();
             this.tsbPaste = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbHelp = new System.Windows.Forms.ToolStripButton();
-            this.imagelistArrows = new System.Windows.Forms.ImageList(this.components);
             this.tsbPrevious = new System.Windows.Forms.ToolStripButton();
             this.tsbNext = new System.Windows.Forms.ToolStripButton();
+            this.tsbHelp = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.imagelistArrows = new System.Windows.Forms.ImageList(this.components);
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.toolStripDialog = new System.Windows.Forms.ToolStrip();
             this.tsbAlbumProps = new System.Windows.Forms.ToolStripButton();
             this.tsbPhotoProps = new System.Windows.Forms.ToolStripButton();
             this.tsbPixelData = new System.Windows.Forms.ToolStripButton();
             this.tsbPixelData2 = new System.Windows.Forms.ToolStripButton();
-            this.flybyProvider = new Manning.MyPhotoControls.FlybyTextProvider(this.components);
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsdImage = new System.Windows.Forms.ToolStripDropDownButton();
             this.tssSelect = new System.Windows.Forms.ToolStripSplitButton();
+            this.flybyProvider = new Manning.MyPhotoControls.FlybyTextProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbxPhoto)).BeginInit();
             this.ctxMenuPhoto.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -114,7 +114,7 @@
             this.pbxPhoto.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbxPhoto.Location = new System.Drawing.Point(0, 0);
             this.pbxPhoto.Name = "pbxPhoto";
-            this.pbxPhoto.Size = new System.Drawing.Size(444, 203);
+            this.pbxPhoto.Size = new System.Drawing.Size(444, 228);
             this.pbxPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxPhoto.TabIndex = 1;
             this.pbxPhoto.TabStop = false;
@@ -155,7 +155,7 @@
             this.mnuImageScale.CheckState = System.Windows.Forms.CheckState.Checked;
             this.flybyProvider.SetFlybyText(this.mnuImageScale, null);
             this.mnuImageScale.Name = "mnuImageScale";
-            this.mnuImageScale.Size = new System.Drawing.Size(152, 22);
+            this.mnuImageScale.Size = new System.Drawing.Size(141, 22);
             this.mnuImageScale.Tag = "Zoom";
             this.mnuImageScale.Text = "&Scale to Fit";
             // 
@@ -163,7 +163,7 @@
             // 
             this.flybyProvider.SetFlybyText(this.mnuImageStretch, null);
             this.mnuImageStretch.Name = "mnuImageStretch";
-            this.mnuImageStretch.Size = new System.Drawing.Size(152, 22);
+            this.mnuImageStretch.Size = new System.Drawing.Size(141, 22);
             this.mnuImageStretch.Tag = "StretchImage";
             this.mnuImageStretch.Text = "S&tretch to Fit";
             // 
@@ -171,7 +171,7 @@
             // 
             this.flybyProvider.SetFlybyText(this.mnuImageActual, null);
             this.mnuImageActual.Name = "mnuImageActual";
-            this.mnuImageActual.Size = new System.Drawing.Size(152, 22);
+            this.mnuImageActual.Size = new System.Drawing.Size(141, 22);
             this.mnuImageActual.Tag = "Normal";
             this.mnuImageActual.Text = "&Actual Size";
             // 
@@ -441,7 +441,7 @@
             // 
             this.flybyProvider.SetFlybyText(this.mnuHelpAbout, null);
             this.mnuHelpAbout.Name = "mnuHelpAbout";
-            this.mnuHelpAbout.Size = new System.Drawing.Size(116, 22);
+            this.mnuHelpAbout.Size = new System.Drawing.Size(152, 22);
             this.mnuHelpAbout.Text = "&About...";
             // 
             // statusStrip1
@@ -502,7 +502,7 @@
             this.tsbNext,
             this.tsbHelp,
             this.toolStripSeparator8});
-            this.toolStripMain.Location = new System.Drawing.Point(3, 0);
+            this.toolStripMain.Location = new System.Drawing.Point(122, 0);
             this.toolStripMain.Name = "toolStripMain";
             this.toolStripMain.Size = new System.Drawing.Size(260, 25);
             this.toolStripMain.TabIndex = 5;
@@ -590,23 +590,6 @@
             this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
             this.toolStripSeparator7.Click += new System.EventHandler(this.tsb_Click);
             // 
-            // tsbHelp
-            // 
-            this.tsbHelp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbHelp.Image = ((System.Drawing.Image)(resources.GetObject("tsbHelp.Image")));
-            this.tsbHelp.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbHelp.Name = "tsbHelp";
-            this.tsbHelp.Size = new System.Drawing.Size(23, 22);
-            this.tsbHelp.Text = "He&lp";
-            this.tsbHelp.Click += new System.EventHandler(this.tsb_Click);
-            // 
-            // imagelistArrows
-            // 
-            this.imagelistArrows.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagelistArrows.ImageStream")));
-            this.imagelistArrows.TransparentColor = System.Drawing.Color.Transparent;
-            this.imagelistArrows.Images.SetKeyName(0, "arrow_Forward_16xLG.png");
-            this.imagelistArrows.Images.SetKeyName(1, "arrow_back_16xLG.png");
-            // 
             // tsbPrevious
             // 
             this.tsbPrevious.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -627,10 +610,27 @@
             this.tsbNext.Text = "Next";
             this.tsbNext.Click += new System.EventHandler(this.tsb_Click);
             // 
+            // tsbHelp
+            // 
+            this.tsbHelp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbHelp.Image = ((System.Drawing.Image)(resources.GetObject("tsbHelp.Image")));
+            this.tsbHelp.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbHelp.Name = "tsbHelp";
+            this.tsbHelp.Size = new System.Drawing.Size(23, 22);
+            this.tsbHelp.Text = "He&lp";
+            this.tsbHelp.Click += new System.EventHandler(this.tsb_Click);
+            // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
             this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // imagelistArrows
+            // 
+            this.imagelistArrows.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagelistArrows.ImageStream")));
+            this.imagelistArrows.TransparentColor = System.Drawing.Color.Transparent;
+            this.imagelistArrows.Images.SetKeyName(0, "arrow_Forward_16xLG.png");
+            this.imagelistArrows.Images.SetKeyName(1, "arrow_back_16xLG.png");
             // 
             // toolStripContainer1
             // 
@@ -638,7 +638,7 @@
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.pbxPhoto);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(444, 203);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(444, 228);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.Location = new System.Drawing.Point(0, 24);
             this.toolStripContainer1.Name = "toolStripContainer1";
@@ -660,9 +660,9 @@
             this.tsbPhotoProps,
             this.tsbPixelData,
             this.tsbPixelData2});
-            this.toolStripDialog.Location = new System.Drawing.Point(263, 0);
+            this.toolStripDialog.Location = new System.Drawing.Point(382, 0);
             this.toolStripDialog.Name = "toolStripDialog";
-            this.toolStripDialog.Size = new System.Drawing.Size(81, 25);
+            this.toolStripDialog.Size = new System.Drawing.Size(62, 25);
             this.toolStripDialog.TabIndex = 2;
             this.toolStripDialog.Text = "toolStrip1";
             // 
@@ -682,7 +682,7 @@
             this.tsbPhotoProps.Image = ((System.Drawing.Image)(resources.GetObject("tsbPhotoProps.Image")));
             this.tsbPhotoProps.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPhotoProps.Name = "tsbPhotoProps";
-            this.tsbPhotoProps.Size = new System.Drawing.Size(23, 22);
+            this.tsbPhotoProps.Size = new System.Drawing.Size(23, 20);
             this.tsbPhotoProps.Text = "Photo Properties";
             this.tsbPhotoProps.Click += new System.EventHandler(this.tsb_Click);
             // 
@@ -692,7 +692,7 @@
             this.tsbPixelData.Image = ((System.Drawing.Image)(resources.GetObject("tsbPixelData.Image")));
             this.tsbPixelData.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPixelData.Name = "tsbPixelData";
-            this.tsbPixelData.Size = new System.Drawing.Size(23, 22);
+            this.tsbPixelData.Size = new System.Drawing.Size(23, 20);
             this.tsbPixelData.Text = "Pixel Data";
             this.tsbPixelData.ToolTipText = "toolStripButton3";
             this.tsbPixelData.Click += new System.EventHandler(this.tsbPixelData_Click);
@@ -703,13 +703,9 @@
             this.tsbPixelData2.Image = ((System.Drawing.Image)(resources.GetObject("tsbPixelData2.Image")));
             this.tsbPixelData2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPixelData2.Name = "tsbPixelData2";
-            this.tsbPixelData2.Size = new System.Drawing.Size(23, 22);
+            this.tsbPixelData2.Size = new System.Drawing.Size(23, 20);
             this.tsbPixelData2.Text = "toolStripButton4";
             this.tsbPixelData2.Visible = false;
-            // 
-            // flybyProvider
-            // 
-            this.flybyProvider.StatusLabel = this.sttInfo;
             // 
             // toolStrip1
             // 
@@ -717,9 +713,9 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsdImage,
             this.tssSelect});
-            this.toolStrip1.Location = new System.Drawing.Point(3, 25);
+            this.toolStrip1.Location = new System.Drawing.Point(3, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(150, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(119, 25);
             this.toolStrip1.TabIndex = 6;
             // 
             // tsdImage
@@ -743,6 +739,10 @@
             this.tssSelect.Name = "tssSelect";
             this.tssSelect.Size = new System.Drawing.Size(54, 22);
             this.tssSelect.Text = "&Select";
+            // 
+            // flybyProvider
+            // 
+            this.flybyProvider.StatusLabel = this.sttInfo;
             // 
             // MainForm
             // 

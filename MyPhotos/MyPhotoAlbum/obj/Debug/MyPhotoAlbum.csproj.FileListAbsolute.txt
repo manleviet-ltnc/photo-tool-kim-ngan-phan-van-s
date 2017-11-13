@@ -16,3 +16,8 @@ H:\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhoto
 H:\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
 H:\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
 H:\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
