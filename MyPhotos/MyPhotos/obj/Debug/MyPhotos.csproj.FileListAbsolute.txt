@@ -56,3 +56,4 @@ H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPho
 H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
 H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
 H:\GitHub\mới\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+H:\GitHub\photo-tool-kim-ngan-phan-van-s\MyPhotos\MyPhotos\obj\Debug\MyPhotos.ParentForm.resources

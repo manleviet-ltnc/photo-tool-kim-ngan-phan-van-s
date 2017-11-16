@@ -35,10 +35,30 @@ namespace MyPhotos
             set { _dlgPixel = value; }
         }
 
+        internal ToolStrip MainToolStrip
+        {
+            get { return toolStripMain; }
+        }
+
+        public string AlbumPath
+        {
+            get { return Manager.FullName; }
+        }
+
+        public string AlbumTitle
+        {
+            get { return Manager.Album.Title; }
+        }
+
         public MainForm()
         {
             InitializeComponent();
             NewAlbum();
+        }
+
+        public MainForm(string path, string pwd) : this()
+        {
+            Manager = new AlbumManager(path, pwd);
         }
 
         private void NewAlbum()
@@ -333,7 +353,7 @@ namespace MyPhotos
         {
             if (PixelForm == null || PixelForm.IsDisposed)
             {
-                PixelForm = new PixelDialog();
+                PixelForm = PixelDialog.GlobalInstance;
                 PixelForm.Owner = this;
             }
             PixelForm.Show();
@@ -344,6 +364,9 @@ namespace MyPhotos
 
         private void UpdatePixelDialog(int x, int y)
         {
+            if (IsMdiChild)
+                PixelForm = PixelDialog.GlobalInstance;
+
             if (PixelForm != null && PixelForm.Visible)
             {
                 Bitmap bmp = Manager.CurrentImage;
@@ -471,6 +494,19 @@ namespace MyPhotos
 
             tsdImage.DropDown = mnuImage.DropDown;
 
+            if (IsMdiChild)
+            {
+                menuStrip1.Visible = false;
+                DisplayAlbum();
+            }
+
+            if (this.IsMdiChild)
+            {
+                menuStrip1.Visible = false;
+                toolStripMain.Visible = false;
+                DisplayAlbum();
+            }
+
             base.OnLoad(e);
         }
 
@@ -544,6 +580,13 @@ namespace MyPhotos
                 tssSelect.DropDown = drop;
                 tssSelect.DefaultItem = drop.Items[0];
             }
+        }
+
+        protected override void OnEnter(EventArgs e)
+        {
+            if (IsMdiChild)
+                UpdatePixelButton(PixelDialog.GlobalInstance.Visible);
+            base.OnEnter(e);
         }
     }
 }
